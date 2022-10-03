@@ -51,7 +51,7 @@ class GarageContainer extends Component {
     } else if (garageState.close) {
       return 'Closed';
     } else {
-      return 'Partially open';
+      return 'Open';
     }
   }
 
